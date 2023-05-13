@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a761884c7c.js" crossorigin="anonymous"></script>
+    <title>Beats</title>
+</head>
+<body>
+    <div class="wrapper">
+        <span id="header"></span>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo"><picture>
+                    <source media="(max-width: 600px )" srcset="img/header/mobile/logo.png">
+                    <img src="img/header/logo.png" alt="" class="logo">
+                </picture></div>
+                <nav class="header__navigation">
+                    <ul class="navigation__body">
+                        <li class="navigation__item">
+                            <a id="homeBtn" href="#home" class="nvigation__link">Home</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a id="specsBtn" href="#specs" class="nvigation__link">Specs</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a id="caseBtn" href="#case" class="nvigation__link">Case</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a id="productsBtn" href="#products" class="nvigation__link">Products</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#shop" class="navigation__btn">Shop</a>
+                        </li>
+                    </ul>
+                    <div class="menu__burger">
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+            <article class="page__container">
+                <section class="home" id="home">
+                    <div class="home__img">
+                        <picture>
+                            <source srcset="img/header/mobile/headphones.png" media="(max-width: 600px)">
+                            <img src="img/header/headphones.png" alt="Beats headphones" class="headphones">
+                        </picture>
+                    </div>
+                    <div class="home__text">
+                        <h1 class="home__title">Beats 3</h1>
+                        <p class="home__subtitle">Overview</p>
+                        <p class="home__description">Enjoy award-winning Beats sound with wireless listening freedom and a sleek, streamlined design with comfortable padded earphones, delivering first-rate playback.</p>
+                        <button class="home__btn buy"><span class="btn__img"><img src="img/home/cart-ico.png" alt=""></span>Add to Bag <span class="bold-white">N399K</span></button>
+                    </div>
+                    <div class="home__social">
+                        <ul class="social__body">
+                            <li class="social__items">
+                                <a href="#" class="social__link"><img src="img/home/ico01.png" alt=""></a>
+                            </li>
+                            <li class="social__items">
+                                <a href="#" class="social__link"><img src="img/home/ico02.png" alt=""></a>
+                            </li>
+                            <li class="social__items">
+                                <a href="#" class="social__link"><img src="img/home/ico03.png" alt=""></a>
+                            </li>
+                            <li class="social__items">
+                                <a href="#" class="social__link"><img src="img/home/ico04.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#header" class="arrow"><img src="img/home/arrow.png" alt=""></a>
+                </section>
+
+                <section class="specs" id="specs">
+                    <div class="spec__container">
+                        <div class="specs__infoblock">
+                            <div class="spec__text">
+                                <sapn class="specs__ico"><img src="img/specs/ico01.png" alt=""></sapn>
+                                <p class="specs__title">Connection</p>
+                                <p class="specs__subtitle">Bluetooth v5.2</p>
+                            </div>
+                            <div class="spec__text">
+                                <sapn class="specs__ico"><img src="img/specs/ico02.png" alt=""></sapn>
+                                <p class="specs__title">Battery</p>
+                                <p class="specs__subtitle">Duration 40h</p>
+                            </div>
+                            <div class="spec__text">
+                                <sapn class="specs__ico"><img src="img/specs/ico03.png" alt=""></sapn>
+                                <p class="specs__title">Load</p>
+                                <p class="specs__subtitle">Fast charge 4.2-AAC</p>
+                            </div>
+                            <div class="spec__text">
+                                <sapn class="specs__ico"><img src="img/specs/ico04.png" alt=""></sapn>
+                                <p class="specs__title">Microphone</p>
+                                <p class="specs__subtitle">Supports Apple Siri <br> and Google</p>
+                            </div>
+                        </div>
+                        <div class="specs__img">
+                            <img src="img/specs/IMAGE.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="case" id="case">
+                    <div class="case__container">
+                        <div class="case__block">
+                            <img class="case__img" src="img/case/01.png" alt="">
+                            <div class="case__text">
+                                <p class="case__description">
+                                    With a comfortable and adaptable case so that you can store it whenever you want, and keep your durability forever.
+                                </p>
+                                <a href="#" class="case__btn"><img class="case__btn_ico" src="img/case/ico.png" alt="">More info</a>
+                            </div>
+                        </div>
+                        <div class="headphones__block">
+                            <div class="headphones__text">
+                                <h2 class="headphones__title">Immerse yourself in <br> your music</h2>
+                                <p class="headphones__subtitle">Buy Now, up to 40% off.</p>
+                                <a href="#" class="headphones__btn"><img class="headphones__btn_ico" src="img/home/cart-ico.png" alt="">Buy now</a>
+                            </div>
+                            <img calss="headphones_img" src="img/case/02.png" alt="">
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+    </div>
+    <script src="main.js"></script>
+   
+</body>
+</html>
