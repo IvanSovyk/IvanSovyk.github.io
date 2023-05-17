@@ -1435,7 +1435,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 75em) {
   .momentum__content {
-    display: block;
+    flex-direction: column-reverse;
   }
 
   .momentum__text {
